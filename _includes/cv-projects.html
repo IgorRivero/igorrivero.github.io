@@ -1,0 +1,63 @@
+{% assign projects = site.data.projects %}
+
+<div class="projects-section">
+    <h3 class="section-title">DETAILED EXPERIENCE</h3>
+        {% for project in projects %}
+            <table class="r-25-75-columns-table">
+                <tr>
+                    <th>{{ project.period }}</th>
+                    <th>{{ project.role }}<br>
+                        <i>{{ project.name }}</i>
+                    </th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        {% for item in project.summary %}
+                            {{ item }}<br>
+                        {% endfor %}
+                    </td>
+                </tr>
+                <tr>
+                    <td>Situation</td>
+                    <td>
+                        {% for item in project.situation %}
+                            {{ item }}<br>
+                        {% endfor %}
+                    </td>
+                </tr>
+                <tr>
+                    <td>Task</td>
+                    <td>
+                        {% for item in project.task %}
+                            {{ item }}<br>
+                        {% endfor %}
+                    </td>
+                </tr>
+                <tr>
+                    <td>Activities</td>
+                    <td>In this role I:
+                        <ul>
+                            {% for item in project.activities %}
+                                <li>{{ item }}</li>
+                            {% endfor %}
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Results</td>
+                    <td>Achievements in this role were:
+                        <ul>
+                            {% for item in project.results %}
+                                <li>{{ item }}</li>
+                            {% endfor %}
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Technologies</td>
+                    <td>{{ project.technologies }}</td>
+                </tr>
+            </table>
+        {% endfor %}
+</div>

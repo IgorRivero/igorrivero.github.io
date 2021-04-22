@@ -1,0 +1,149 @@
+@media print {
+
+  .no-print,
+  .no-print * {
+    display: none !important;
+  }
+
+  .r-25-75-columns-table,
+  .r-50-50-columns-table {
+    page-break-inside: avoid;
+  }
+
+  .projects-section,
+  .knowledge-experience-section {
+    page-break-before: always;
+  }
+}
+
+
+/**
+ * Page content
+ */
+.page-content {
+  width       : $max-width;
+  margin-left : auto;
+  margin-right: auto;
+  padding     : $spacing-unit/3 0;
+}
+
+
+/**
+ * Site header
+ */
+.site-header {
+  width           : $max-width;
+  margin-left     : auto;
+  margin-right    : auto;
+  z-index         : 1;
+  background-color: $background-color;
+  overflow        : hidden;
+  position        : sticky;
+  top             : 0;
+  border-top      : 5px solid $brand-color-dark;
+  border-bottom   : 1px solid $brand-color-light;
+  min-height      : $spacing-unit * 1.75;
+  line-height     : $base-line-height * $base-font-size * 2.25;
+}
+
+.site-nav {
+  list-style-type : none;
+  margin          : 0;
+  padding         : 0;
+  width           : 100%;
+  background-color: $background-color;
+  border          : none;
+  text-align      : left;
+
+  li {
+    float: left;
+  }
+
+  li a {
+    line-height: $base-line-height;
+    display    : inline;
+    text-align : center;
+    padding    : 0.5em 1em;
+  }
+
+  .active {
+    background-color: $main-color;
+
+    a {
+      color: whitesmoke;
+    }
+  }
+
+  .pdf-button {
+    float: right;
+  }
+}
+
+
+/**
+ * Site footer
+ */
+.site-footer {
+  width           : $max-width;
+  margin-left     : auto;
+  margin-right    : auto;
+  z-index         : 1;
+  background-color: $background-color;
+  overflow        : hidden;
+  position        : sticky;
+  bottom          : 0;
+  border-top      : 1px solid $brand-color-light;
+  padding         : $spacing-unit/4 0 $spacing-unit;
+}
+
+.footer-col-wrapper {
+  display: table;
+  width  : 100%;
+  margin : 0;
+  color  : $brand-color;
+
+  li {
+    display   : table-cell;
+    width     : 50%;
+    text-align: center;
+  }
+}
+
+
+/**
+ * Social media list
+ */
+.social-media-list {
+  list-style: none;
+  display   : table;
+  margin    : -0.2em auto -1.2em;
+
+  li {
+    float : left;
+    margin: 5px 10px 5px 0;
+
+    &:last-of-type {
+      margin-right: 0
+    }
+
+    a {
+      display: block;
+      padding: $spacing-unit / 4;
+      border : 1px solid transparent;
+
+      &:hover {
+        border-color   : $main-color;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+/**
+ * Grid helpers
+ */
+@media screen and (min-width: $on-large) {
+  .one-half {
+    width: calc(50% - (#{$spacing-unit} / 2));
+  }
+}

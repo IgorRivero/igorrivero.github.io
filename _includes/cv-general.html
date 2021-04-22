@@ -1,0 +1,35 @@
+{% assign info = site.data.general %}
+
+<div>
+    <h3 class="section-title">GENERAL</h3>
+    <table class="r-25-75-columns-table">
+        <tr>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>{{ info.name }}</td>
+        </tr>
+        <tr>
+            <td>Date of birth</td>
+            <td>{{ info.date-of-birth }}</td>
+        </tr>
+        <tr>
+            <td>Place of residence</td>
+            <td>{{ info.residence.city }}, {{ info.residence.country }}</td>
+        </tr>
+        <tr>
+            <td>Languages</td>
+            <td>{{ info.languages }}</td>
+        </tr>
+        <tr>
+            <td>Nationality</td>
+            <td>{{ info.nationality }}</td>
+        </tr>
+        <tr>
+            <td>Experience since</td>
+            <td>{{ info.experience-since }}</td>
+        </tr>
+    </table>
+</div>

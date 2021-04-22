@@ -1,0 +1,28 @@
+<div>
+    {% assign skills = site.data.skills %}
+    <h3 class="section-title">SKILLS</h3>
+	
+    {% for skill-cat in skills %}
+        <div class="skill-category">
+			{% if skill-cat contains "DATA_KNOWLEDGE" %}
+				<h3> DATA KNOWLEDGE </h3>
+			{% else %}
+            <h3>{{ skill-cat[0] }}</h3>
+			{% endif %}
+            <ul class="skill-list">
+                {% for skill in skill-cat[1] %}
+                    {% if skill.score > 50 %}
+                        <li>
+                            <div class="skill-box">
+                                <div class="skill-name">{{ skill.name }}</div>
+                                <div class="skill-container">
+                                    <div class="skill" style="width: {{ skill.score }}%;"></div>
+                                </div>
+                            </div>
+                        </li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+    {% endfor %}
+</div>

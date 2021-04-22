@@ -1,0 +1,47 @@
+{
+    "jobs": [
+        {
+            "role": "Business Intelligence Analyst",
+            "company": "CIALNE - Companhia de Alimentos do Nordeste ",
+            "period": "May/2020 – Present",
+            "achievements": [
+                "Created a dashboard with real-time error reporting, making possible to correct jobs failures that update the management monitoring panels, solve them before user identified a failure.",                "Implemented a Row-level security (RLS), restricting data access for given users.",
+                "Created workflows to migrate data from other companies acquired by Cialne.",
+                "Optimized data sets update using incremental update techniques ,reducing the update time by 40% .",
+                "Designed pipelines to automate process using open source tools."
+            ]
+        },
+        {
+            "role": "Business Intelligence Analyst",
+            "company": "SiMCo - Healthcare",
+            "period": "Apr/2019 – Apr/2020",
+            "achievements": [
+                "Migration of the company's BI environment, a hybrid solution using paid and open source tools.",
+                "Implemented metrics and KPI visualization for customer experience analysis, such NPS (Net Promoter Score) and CSAT (Customer Satisfaction Score).",
+                "Participated in a joint effort to manage the process of variable remuneration for the service of each unit of the company.",
+                "Created a workflow to automate the creation of bases for automatic dialer in the call centre sector."
+            ]
+        },
+        {
+            "role": "Assistant Business Analyst",
+            "company": "CRC - Central de Recuperação de Créditos",
+            "period": "Jun/2018 – Apr/2019",
+            "achievements": [
+                "Developed strategies to reduce actions expenses with inefficient ROI (Return On Investment).",
+	            "Created flows to automate the creation of the dial list for the active credit recovery team, improving the performance of the operational team."
+            ]
+        },
+        {
+            "role": "Technical Support Analyst",
+            "company": "Stefanini Brasil",
+            "period": "Apr/2016 – May/2018",
+            "achievements": [
+                "Interpersonal skills, such as make sure to be understood and well understand what is the real client request.",
+                "Interpersonal skills such as Empathy, Friendliness and Active listening"
+                
+            ]
+        }
+        
+        
+    ]
+}

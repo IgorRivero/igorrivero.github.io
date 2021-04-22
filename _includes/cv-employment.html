@@ -1,0 +1,19 @@
+{% assign jobs = site.data.experience.jobs %}
+
+<div>
+    <h3 class="section-title">EMPLOYMENT OVERVIEW</h3>
+    <table class="r-25-75-columns-table">
+        <tr>
+            <th>Period</th>
+            <th>Position</th>
+            <th>Company</th>
+        </tr>
+        {% for job in jobs %}
+            <tr>
+                <td>{{ job.period }}</td>
+                <td>{{ job.role }}</td>
+                <td>{{ job.company }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+</div>

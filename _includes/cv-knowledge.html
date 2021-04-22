@@ -1,0 +1,41 @@
+{% assign skills = site.data.skills %}
+
+<div class="knowledge-experience-section">
+    <h3 class="section-title">KNOWLEDGE and EXPERIENCE</h3>
+    <table class="r-50-50-columns-table">
+        <tr>
+            <th>Programing Languages</th>
+            <th></th>
+        </tr>
+        {% for language in skills.LANGUAGES %}
+            <tr>
+                <td>{{ language.name }}</td>
+                <td>{{ language.experience }} year{% if language.experience > 1 %}s{% endif %}</td>
+            </tr>
+        {% endfor %}
+    </table>
+    <table class="r-50-50-columns-table">
+        <tr>
+            <th>Tools, Frameworks and Libraries</th>
+            <th></th>
+        </tr>
+        {% for tool in skills.TOOLS %}
+            <tr>
+                <td>{{ tool.name }}</td>
+                <td>{{ tool.experience }} year{% if tool.experience > 1 %}s{% endif %}</td>
+            </tr>
+        {% endfor %}
+    </table>
+    <table class="r-50-50-columns-table">
+        <tr>
+            <th>Techniques and Methodologies</th>
+            <th></th>
+        </tr>
+        {% for process in skills.DATA_KNOWLEDGE %}
+            <tr>
+                <td>{{ process.name }}</td>
+                <td>{{ process.experience }} year{% if process.experience > 1 %}s{% endif %}</td>
+            </tr>
+        {% endfor %}
+    </table>
+</div>

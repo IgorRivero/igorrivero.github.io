@@ -1,0 +1,26 @@
+{
+    "academic": [
+        {
+            "name": " Specialization in Data Science",
+            "level": "Post-undergraduate",
+            "institution": "Organização Educacional Farias Brito",
+            "period": "2020 – 2021",
+            "place": "Fortaleza, CE - Brazil."
+        },
+        {
+            "name": "Computer Science",
+            "level": "Bachelor degree",
+            "institution": "UECE - Universidade Estadual do Ceará",
+            "period": "2010 – 2018",
+            "place": "Fortaleza, CE - Brazil."
+        },
+        {
+            "name": "Computer Science",
+            "level": "Abroad Student",
+            "institution": "Griffith College Dublin",
+            "period": "2014 – 2015",
+            "place": "Dublin, County Dublin, Ireland."
+        }
+    ]
+    
+}

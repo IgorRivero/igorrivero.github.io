@@ -1,0 +1,16 @@
+<div>
+    {% assign jobs = site.data.experience.jobs %}
+
+    <h3 class="section-title">EXPERIENCE</h3>
+
+    {% for job in jobs %}
+        <h3 class="role">{{ job.role }}</h2>
+        <h4 class="period">{{ job.period }}</h3>
+        <h4 class="company">{{ job.company }}</h3>
+        <ul class="achievements">
+            {% for achievement in job.achievements %}
+                <li>{{ achievement }}</li>
+            {% endfor %}
+        </ul>
+    {% endfor %}
+</div>

@@ -1,0 +1,27 @@
+{
+    "name": "Paulo Igor Rivero",
+    "phone": "+55 (85) 996 197 629",
+    "email": "paulo.igor.rivero@gmail.com",
+    "date-of-birth": "30-Jun-1992",
+    "residence": {
+        "city": "Fortaleza/CE",
+        "country": "Brazil"
+    },
+    "languages": "Portuguese (native), English",
+    "nationality": "Brazilian",
+    "title-1": "Data Analyst",
+    "experience-since": "2017",
+    "social-links": {
+            "linkedin": "pigorrivero"
+    },
+    "pdfs": {
+        "resume": "Paulo_Igor_Rivero_resume.pdf",
+        "cv": "Paulo_Igor_Rivero.pdf"
+    },
+    "summary": [
+        "Data Analyst & Data Engineer with 3+ years of experience on complex data interpretation, data engineering, and project analysis, transforming raw data to deliver valuable insights that support strategic decisions making at the corporate level. ",
+        "Aiming to enhance my data analysis and machine learning skills to transform challenges into achievements.",
+        "Excellent communication, reporting, and presentation skills.",
+        "Open-minded and fast-learner."
+    ]
+}

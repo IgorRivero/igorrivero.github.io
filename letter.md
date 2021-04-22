@@ -1,0 +1,4 @@
+---
+layout: letter
+permalink: /letter/
+---

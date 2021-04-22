@@ -1,0 +1,117 @@
+[
+    {
+        "role": "Business Intelligence Analyst",
+        "name": "CIALNE - Companhia de Alimentos do Nordeste ",
+        "period": "May/2020 – Present",
+        "summary": [
+            "CIALNE, a company that works with poultry farming and livestock, with about 4.000 employees."
+        ],
+        "situation": [
+            "Despite of a lockdown and several restrictions, triggered by the COVID-19 pandemic, CIALNE managed to raise its profits, acquiring new factories, growing in number of production and employees as well."
+        ],
+        "task": [
+            "Pick up the tasks from the previous Business Intelligence Analyst in maintaining and creating new reports and pipelines. Tracking current KPI's and migrate data from acquired companies as well."
+        ],
+        "activities": [
+            "Applied concepts of facts and dimensions using the star schema to model data.",
+            "Extract, clean and transform data to make assertive information easily accessible to dashboard developers.",
+            "Automation of data extraction, transformation and loading",
+            "Data analysis and creating cubes with SQL Server Analysis Services (SSAS Tabular Model).",
+            "Develop reports and dashboards creating measures and calculated columns.",
+            "Database manipulation Oracle Database, SQL Server and PostgreSQL.",
+	        "Track and manage  Key Performance Indicators from all company sectors.",
+	        "Worked closely with various teams across the company to identify and solve business challenges utilizing data."
+
+        ],
+        "results": [
+            
+            "Created a dashboard with real-time error reporting, making possible to correct the error of the jobs for updating the management monitoring panels, solve them before user identified a failure.",
+            "Implemented a Row-level security (RLS) with Power BI and SQL Server Analysis Services (SSAS), restricting data access for given users.",
+            "Created workflows using kettle Pentaho Data Integration (PDI) to migrate data from other companies acquired by Cialne.",
+            "Optimized data sets update using incremental update techniques in Pentaho Data Integration (PDI) flows, reducing the update time by 40% .",
+            "Designed pipelines to automate process using open source tools."
+        ],
+        "technologies": "Data Analysis, Data Modelling, Data Mining, ETL, Business Analysis, DAX (Data Analysis Expression), Oracle Database, SQL Server, PostgreSQL."
+    },
+    {
+        "role": "Business Intelligence Analyst",
+        "name": "SiMCo - Healthcare",
+        "period": "Apr/2019 – Apr/2020",
+        "summary": [
+            "SiMCo is the largest healtech in the north and northeast of Brazil. That provides quality medical care for low-income people at affordable prices. With more than 1.5 million users, it has more than 20 clinics to date and innovates with dynamic pricing and disease prevention according to the history of each patient, using artificial intelligence."
+        ],
+        "situation": [
+            "SimCo was at the moment with 12 active branches and in a fast-growing movement.",
+            "The IT department was in need of a Business Intelligence Analyst to support all this growing, ensuring integrity and availability of all new data, so as to allow an optimizes study of all new branches."
+
+        ],
+        "task": [
+            "As a main request, I was responsible for integrating information from new branches.",
+            "Developed metrics, reports and dashboards. In close contact with the quality and product departments, I improved analysis and generated insights that optimized your daily tasks."
+        ],
+        "activities": [
+            "Develop and publish Dashboards .",
+            "Manipulate Database to create triggers and procedures.",
+            "Create and maintain datapipes."
+        ],
+        "results": [
+            "Migration of the company's BI environment, a hybrid solution using paid and open source tools.",
+            "Implemented metrics and KPI visualization for customer experience analysis, such NPS (Net Promoter Score) and CSAT (Customer Satisfaction Score).",
+            "Participated in a joint effort to manage the process of variable remuneration for the service of each unit of the company.",
+            "Created a workflow to automate the creation of bases for automatic dialer in the call centre sector."
+        ],
+        "technologies": "Microsoft Power BI, PDI (Pentaho Data Integration), Oracle Developer, Microsoft Excel, Alteryx Design, Good Data – TOTVS Smart Analytics, TASY."
+    },
+    {
+        "role": "Assistant Business Analyst",
+        "name": "CRC - Central de Recuperação de Créditos",
+        "period": "Jun/2018 – Apr/2019",
+        "summary": [
+            "CRC - Central de Recuperação de Créditos was created 1997 with the goal of act as an interlocutor between partners and customers in the are of credit recovery. Has as mission recover credits and customers through efficient and ethical actions."
+        ],
+        "situation": [
+            "CRC was been recognize for achieve credit recovery goals, increasing a lot the number of contractors for your services, such as famous Banks.",
+            "The company was in need to contract a new employee to handle with this number of contracts."
+        ],
+        "task": [
+            "Was responsible for improving data extraction to optimize dataset’s generation.",
+            "Generate strategies to reduce expenses.",
+            "Manage massive actions, such as sending text messages and email, limiting resources spent by such actions."
+        ],
+        "activities": [
+            "SQL Database manipulation .",
+            "Manipulate and Pre-Processing Data .",
+            "Data analysis for strategic planning, improving the decision-making process, monitoring risks and reducing costs of massive actions."
+        ],
+        "results": [
+            "Developed strategies to reduce actions expenses with inefficient ROI (Return On Investment).",
+	        "Created flows to automate the creation of the dial list for the active credit recovery team, improving the performance of the operational team."
+        ],
+        "technologies": "Alteryx Design, SQL Workbench, Tableau, Microsoft Excel."
+    },
+    {
+        "role": "Technical Support Analyst",
+        "name": "Stefanini Brasil",
+        "period": "Apr/2016 – May/2018",
+        "summary": [
+            "Stefanini is a Brazilian multinational that operates in the IT services sector. One of the most important global providers of technology-based business solutions."
+        ],
+        "situation": [
+            "Having as a client one of the largest Brazilian national banks, Stefanini needed employees to to solve technical  and  banking systems problems from employees of that bank."        ],
+        "task": [
+            "My role in this company was to receive requests from internal employees at that bank.",
+            "Inconsistencies that I did not have the necessary tools to solve , were sent to the next level of service so that would be solve."
+        ],
+        "activities": [
+            "Provide customer service following the principles of the ITIL platform acting at Level 1.",
+            "Support for banking systems using SQL and Active Directory tools.",
+            "Technical support in hardware and software for internal employees."
+        ],
+        "results": [
+            "Interpersonal skills, such as make sure to be understood and well understand what is the real client request."
+        ],
+        "technologies": "Microsoft Office Word, Microsoft Office Excel ."
+    }
+    
+    
+]

@@ -1,0 +1,135 @@
+{
+    "DATA_KNOWLEDGE": [
+        {
+            "name": "Data Analysis",
+            "score": 100,
+            "experience": 3
+        },
+        {
+            "name": "Data Modeling",
+            "score": 90,
+            "experience": 2
+        },
+        {
+            "name": "Data Mining",
+            "score": 80,
+            "experience": 2
+        },
+        {
+            "name": "Machine Learning",
+            "score": 60,
+            "experience": 1
+        }
+        ,
+        {
+            "name": "Business Inteligence",
+            "score": 100,
+            "experience": 3
+        },
+        {
+            "name": "Business Analysis",
+            "score": 90,
+            "experience": 3
+        }
+    ],
+    "LANGUAGES": [
+        {
+            "name": "Python",
+            "score": 80,
+            "experience": 2
+        },
+        {
+            "name": "R",
+            "score": 60,
+            "experience": 1
+        },
+        {
+            "name": "C",
+            "score": 40,
+            "experience": 2
+        }
+
+    ],
+    "TOOLS": [
+        {
+            "name": "Pentaho Data Integration",
+            "score": 90,
+            "experience": 3
+        },
+        {
+            "name": "Alteryx Design",
+            "score": 80,
+            "experience": 2
+        },
+        {
+            "name": "Microsoft Power BI",
+            "score": 90,
+            "experience": 2
+        },
+        {
+            "name": "Tableu",
+            "score": 60,
+            "experience": 1
+        },
+        {
+            "name": "Microsoft Excel",
+            "score": 90,
+            "experience": 4
+        },
+       {
+            "name": "SQL",
+            "score": 80,
+            "experience": 3
+        },
+        {
+            "name": "PostgreSQL",
+            "score": 60,
+            "experience": 2
+        },
+        {
+            "name": "Oracle Database",
+            "score": 90,
+            "experience": 3
+        },
+        {
+            "name": "MongoDB",
+            "score": 40,
+            "experience": 1
+        },
+        {
+            "name": "Sklearn",
+            "score": 80,
+            "experience": 1
+        }
+    ],
+    "PERSONAL": [
+        {
+            "name": "Teamwork",
+            "score": 100
+        },
+        {
+            "name": "Communication",
+            "score": 100
+        },
+        {
+            "name": "Analytical thinking",
+            "score": 100
+        },
+        {
+            "name": "Self-learner",
+            "score": 90
+        },
+        {
+            "name": "Fast-learner",
+            "score": 100
+        },
+        {
+            "name": "Active listening",
+            "score": 100
+        },
+        {
+            "name": "Organization",
+            "score": 100
+        }
+    ]
+}

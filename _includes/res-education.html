@@ -1,0 +1,12 @@
+<div>
+    {% assign courses = site.data.education.academic %}
+
+    <h3 class="section-title">EDUCATION</h3>
+
+    {% for course in courses %}
+        <h3 class="course">{{ course.name }}</h3>
+        <h4 class="period">{{ course.period }}</h4>
+        <h4 class="institution">{{ course.institution }}</h4>
+        <p class="place">{{ course.place }}</p>
+    {% endfor %}
+</div>

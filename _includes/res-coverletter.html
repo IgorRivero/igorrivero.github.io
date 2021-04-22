@@ -1,0 +1,13 @@
+<div>
+    {% assign jobs = site.data.cover_letter.jobs %}
+
+    <h3 class="section-title">Re: QUALITY ASSURANCE ANALYST</h3>
+
+    {% for job in jobs %}
+        <ul class="letter">
+            {% for achievement in job.achievements %}
+                <li>{{ achievement }}</li>
+            {% endfor %}
+        </ul>
+    {% endfor %}
+</div>

@@ -1,0 +1,19 @@
+{% assign info = site.data.general %}
+
+<div class="top-banner">
+    <div class="contact-text">
+        <p style="margin-bottom:0">
+            {{ info.residence.city }},<br>
+            {{ info.residence.country }}
+			
+        </p>
+		<p style="margin-bottom:0">
+			{{info.phone}}
+		</p>
+        <a href="mailto:{{ info.email }}">{{ info.email }}</a>
+    </div>
+    
+    <div class="social-links">
+        {%- include site-social.html -%}
+    </div>
+</div>

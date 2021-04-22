@@ -1,0 +1,225 @@
+.row {
+    position: relative;
+    width   : 100%;
+    display : table;
+}
+
+.row [class^="col"] {
+    display       : table-cell;
+    vertical-align: top;
+}
+
+.col-1 {
+    width           : 25%;
+    background-color: darken($color: white, $amount: 15)
+}
+
+.col-2 {
+    width           : 74%;
+    padding-left    : 1%;
+    background-color: darken($color: white, $amount: 2);
+}
+
+.top-banner {
+    height: $spacing-unit * 4;
+}
+
+
+/**
+ * Contact
+ */
+.contact-text {
+    margin-top: $spacing-unit / 2;
+    text-align: center;
+}
+
+
+/**
+ * Name and titles
+ */
+h1 {
+    margin-top    : $spacing-unit / 2.5;
+    margin-bottom : 0;
+    text-transform: uppercase;
+    color         : $main-color;
+    font-size     : $base-font-size * 2.5;
+    font-weight   : bold;
+    text-align    : center;
+}
+
+h2 {
+    margin        : 0;
+    text-transform: uppercase;
+    color         : darken($color: darkgray, $amount: 20);
+    font-size     : $base-font-size * 2;
+    font-weight   : $base-font-weight;
+    text-align    : center;
+}
+
+
+/**
+ * Icons
+ */
+.svg-icon {
+    width         : 20px;
+    height        : 20px;
+    transform     : scale(2);
+    display       : inline-block;
+    color         : $main-color;
+    fill          : currentColor;
+    padding       : 6px 3px 2px 7px;
+    vertical-align: text-bottom;
+}
+
+
+/**
+ * Section separator
+ */
+.section-title {
+    margin-top      : $spacing-unit / 2;
+    text-align      : center;
+    color           : whitesmoke;
+    font-weight     : $base-font-weight;
+    font-size       : $base-font-size * 1.5;
+    background-color: $main-color;
+}
+
+
+/**
+ * Text
+ */
+.summary-text {
+    margin: 2%;
+
+    p {
+        margin-bottom: 0.3em;
+    }
+}
+
+
+/**
+ * Skills
+ */
+.skill-category {
+    h3 {
+        font-weight  : bold;
+        margin-left  : 2%;
+        margin-bottom: 0.3em;
+    }
+}
+
+.skill-list {
+    display      : flow-root;
+    list-style   : none;
+    margin-left  : 0;
+    margin-bottom: 1.5em;
+}
+
+.skill-box {
+    display        : flex;
+    justify-content: space-between;
+    margin         : 2% 2% 0 2%;
+}
+
+.skill-name {
+    font-size     : $small-font-size;
+    text-transform: uppercase;
+    float         : left;
+    width         : 53%;
+}
+
+.skill-container {
+    margin          : auto 0 auto;
+    float           : right;
+    width           : 43%;
+    background-color: lighten($color: $main-color, $amount: 53);
+    border-radius   : 0.3em;
+
+    .skill {
+        padding         : 0.5em 0;
+        background-color: $main-color;
+        border-radius   : 0.3em;
+    }
+}
+
+
+/**
+ * Resume content
+ */
+.role,
+.course {
+    margin        : 0 0 0 1%;
+    font-weight   : bold;
+    font-size     : $base-font-size * 1.5;
+    text-transform: uppercase;
+    float         : left;
+}
+
+.period {
+    margin     : 0 1% 0 0;
+    float      : right;
+    font-weight: $base-font-weight;
+}
+
+.company,
+.institution {
+    margin     : 0 0 0.5em 1%;
+    color      : $main-color;
+    clear      : both;
+    font-weight: $base-font-weight;
+}
+
+.achievements {
+    list-style-type: square;
+    margin         : 0 1em 1.5em 2em;
+}
+
+.place {
+    margin: 0 0 1em 1%;
+}
+
+
+/**
+ * CV
+ */
+table.r-25-75-columns-table,
+table.r-50-50-columns-table {
+    border-collapse: collapse;
+    width          : 98%;
+    margin         : 0 1% $spacing-unit;
+
+    th,
+    td {
+        padding      : 0 1em;
+        text-align   : left;
+        border-bottom: 1px solid $brand-color;
+
+        ul {
+            list-style-type: square;
+            margin         : 0 0 0 1.5em;
+        }
+    }
+
+    th {
+        color         : $main-color;
+        vertical-align: top;
+    }
+
+    tr:hover {
+        background-color: $brand-color-light;
+    }
+}
+
+table.r-25-75-columns-table {
+    td:first-child {
+        vertical-align: top;
+        font-weight   : bold;
+        width         : 25%;
+    }
+}
+
+table.r-50-50-columns-table {
+    td:first-child {
+        width: 50%;
+    }
+}
