@@ -39,14 +39,29 @@
             "experience": 2
         },
         {
+            "name": "SQL",
+            "score": 90,
+            "experience": 3
+        },
+        {
+            "name": "PostgreSQL",
+            "score": 70,
+            "experience": 2
+        },
+        {
+            "name": "Oracle Database",
+            "score": 90,
+            "experience": 3
+        },
+        {
+            "name": "MongoDB",
+            "score": 60,
+            "experience": 1
+    },
+        {
             "name": "R",
             "score": 60,
             "experience": 1
-        },
-        {
-            "name": "C",
-            "score": 40,
-            "experience": 2
         }
 
     ],
@@ -75,26 +90,6 @@
             "name": "Microsoft Excel",
             "score": 90,
             "experience": 4
-        },
-       {
-            "name": "SQL",
-            "score": 95,
-            "experience": 3
-        },
-        {
-            "name": "PostgreSQL",
-            "score": 70,
-            "experience": 2
-        },
-        {
-            "name": "Oracle Database",
-            "score": 90,
-            "experience": 3
-        },
-        {
-            "name": "MongoDB",
-            "score": 40,
-            "experience": 1
         },
         {
             "name": "Sklearn",
