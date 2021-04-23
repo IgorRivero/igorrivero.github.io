@@ -39,6 +39,11 @@
             "experience": 2
         },
         {
+            "name": "Spark",
+            "score": 70,
+            "experience": 1
+        },
+        {
             "name": "SQL",
             "score": 90,
             "experience": 3
