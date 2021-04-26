@@ -31,8 +31,7 @@
             "Optimized data sets update using incremental update techniques in Pentaho Data Integration (PDI) flows, reducing the update time by 40% .",
             "Designed pipelines to automate process using open source tools."
         ],
-        "technologies": "Data Analysis, Data Modelling, Data Mining, ETL, Business Analysis, DAX (Data Analysis Expression), Oracle Database, SQL Server, PostgreSQL.",
-        "tools":" Microsoft Power BI, PDI (Pentaho Data Integration), SSAS (SQL Server Analysis Services), Visual Studio Code, Oracle Developer, PuTTy, Pentaho Server, Docker, Microsoft Excel, SAP."
+        "technologies": " Microsoft Power BI, PDI (Pentaho Data Integration), SSAS (SQL Server Analysis Services), Visual Studio Code, Oracle Developer, PuTTy, Pentaho Server, Docker, Microsoft Excel, SAP, DAX (Data Analysis Expression), Oracle Database, SQL Server, PostgreSQL."
     },
     {
         "role": "Business Intelligence Analyst",
