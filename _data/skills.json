@@ -2,12 +2,12 @@
     "DATA_KNOWLEDGE": [
         {
             "name": "Data Analysis",
-            "score": 100,
+            "score": 80,
             "experience": 3
         },
         {
             "name": "Data Modeling",
-            "score": 90,
+            "score": 70,
             "experience": 2
         },
         {
@@ -23,12 +23,12 @@
         ,
         {
             "name": "Business Inteligence",
-            "score": 100,
+            "score": 80,
             "experience": 3
         },
         {
             "name": "Business Analysis",
-            "score": 90,
+            "score": 70,
             "experience": 3
         }
     ],
@@ -45,17 +45,17 @@
         },
         {
             "name": "SQL",
-            "score": 90,
+            "score": 85,
             "experience": 3
         },
         {
             "name": "PostgreSQL",
-            "score": 70,
+            "score": 65,
             "experience": 2
         },
         {
             "name": "Oracle Database",
-            "score": 90,
+            "score": 80,
             "experience": 3
         },
         {
@@ -73,22 +73,22 @@
     "TOOLS": [
         {
             "name": "Pentaho Data Integration",
-            "score": 90,
+            "score": 87,
             "experience": 3
         },
         {
             "name": "Alteryx Design",
-            "score": 80,
+            "score": 75,
             "experience": 2
         },
         {
             "name": "Microsoft Power BI",
-            "score": 90,
+            "score": 85,
             "experience": 2
         },
         {
             "name": "Tableu",
-            "score": 70,
+            "score": 66,
             "experience": 1
         },
         {
@@ -98,38 +98,38 @@
         },
         {
             "name": "Sklearn",
-            "score": 80,
+            "score": 75,
             "experience": 1
         }
     ],
     "PERSONAL": [
         {
             "name": "Teamwork",
-            "score": 100
-        },
-        {
-            "name": "Communication",
-            "score": 100
-        },
-        {
-            "name": "Analytical thinking",
-            "score": 100
-        },
-        {
-            "name": "Self-learner",
             "score": 90
         },
         {
+            "name": "Communication",
+            "score": 85
+        },
+        {
+            "name": "Analytical thinking",
+            "score": 90
+        },
+        {
+            "name": "Self-learner",
+            "score": 85
+        },
+        {
             "name": "Fast-learner",
-            "score": 100
+            "score": 90
         },
         {
             "name": "Active listening",
-            "score": 100
+            "score": 90
         },
         {
             "name": "Organization",
-            "score": 100
+            "score": 90
         }
     ]
 }
