@@ -124,6 +124,14 @@
     ],
     "PERSONAL": [
         {
+            "name": "Consultant",
+            "score": 88
+        },
+        {
+            "name": "Meeting Facilitator",
+            "score": 79
+        },
+        {
             "name": "Teamwork",
             "score": 90
         },
