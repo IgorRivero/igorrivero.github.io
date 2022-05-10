@@ -6,9 +6,6 @@
         "summary": [
             "Thoughtworks is a global technology consultancy that integrates strategy, design and engineering to drive digital innovation."
         ],
-        "situation": [
-            "Despite of a lockdown and several restrictions, triggered by the COVID-19 pandemic, CIALNE managed to raise its profits, acquiring new factories, growing in number of production and employees as well."
-        ],
         "task": [
             "Build and Refact pipelines",
             "Monitoring pipelines executions",
