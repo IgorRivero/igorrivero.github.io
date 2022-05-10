@@ -28,40 +28,40 @@
         },
         {
             "name": "Business Analysis",
-            "score": 70,
+            "score": 75,
             "experience": 3
         }
     ],
     "LANGUAGES": [
         {
             "name": "Python",
-            "score": 80,
-            "experience": 2
-        },
-        {
-            "name": "Spark",
-            "score": 70,
-            "experience": 1
-        },
-        {
-            "name": "SQL",
             "score": 85,
             "experience": 3
         },
         {
+            "name": "Spark",
+            "score": 83,
+            "experience": 2
+        },
+        {
+            "name": "SQL",
+            "score": 85,
+            "experience": 4
+        },
+        {
             "name": "PostgreSQL",
             "score": 65,
-            "experience": 2
+            "experience": 3
         },
         {
             "name": "Oracle Database",
             "score": 80,
-            "experience": 3
+            "experience": 4
         },
         {
             "name": "MongoDB",
             "score": 60,
-            "experience": 1
+            "experience": 2
     },
         {
             "name": "R",
@@ -72,8 +72,28 @@
     ],
     "TOOLS": [
         {
+            "name": "Microsoft Azure Data Factory",
+            "score": 88,
+            "experience": 1
+        },
+        {
+            "name": "Microsoft Azure Log Analytics",
+            "score": 79,
+            "experience": 1
+        },
+        {
+            "name": "Azure Databricks",
+            "score": 83,
+            "experience": 2
+        },
+        {
+            "name": "Microsoft Azure Storage Explorer",
+            "score": 80,
+            "experience": 1
+        },
+        {
             "name": "Pentaho Data Integration",
-            "score": 87,
+            "score": 85,
             "experience": 3
         },
         {

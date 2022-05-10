@@ -5,6 +5,10 @@
             "company": "THOUGHTWORKS",
             "period": "Jul/2021 – Present",
             "achievements": [
+                "Build pipelines to automate the ingestion of big data requirements to improve the response time from machine learning models.",
+                "Developed generic pipelines to make it easy to implement new pipelines in the future, just reusing pre-existent pipelines (pipelines templates)",
+                "Build monitoring pipelines to notify by e-mail as soon as it finishes, either with errors or not.",
+                "Integration of Azure Log Analitycs with a third-party system to automate call-outs to the team members, reaching them by e-mail or any other contact( call, SMS)"
              
             ]
         },

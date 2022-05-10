@@ -1,8 +1,42 @@
 [
     {
+        "role": "Consultant Data Engineer",
+        "name": "ThoughtWorks",
+        "period": "July/2021 – Present",
+        "summary": [
+            "Thoughtworks is a global technology consultancy that integrates strategy, design and engineering to drive digital innovation."
+        ],
+        "situation": [
+            "Despite of a lockdown and several restrictions, triggered by the COVID-19 pandemic, CIALNE managed to raise its profits, acquiring new factories, growing in number of production and employees as well."
+        ],
+        "task": [
+            "Build and Refact pipelines",
+            "Monitoring pipelines executions",
+            "Develop Data Quality pipelines ",
+            "As a consultant, guide the best way to proceed according to the client's business needsß "
+        ],
+        "activities": [
+            "Build pipelines to automate the ingestion of big data requirements to improve the response time from machine learning models.",
+            "Developed generic pipelines to make it easy to implement new pipelines in the future, just reusing pre-existent pipelines (pipelines templates).",
+            "Build monitoring pipelines to notify by e-mail as soon as it finishes, either with errors or not.",
+            "Integration of Azure Log Analitycs with a third-party system to automate call-outs to the team members, reaching them by e-mail or any other contact( call, SMS)."
+             
+
+        ],
+        "results": [
+            
+            "Created a dashboard with real-time error reporting, making possible to correct the error of the jobs for updating the management monitoring panels, solve them before user identified a failure.",
+            "Implemented a Row-level security (RLS) with Power BI and SQL Server Analysis Services (SSAS), restricting data access for given users.",
+            "Created workflows using kettle Pentaho Data Integration (PDI) to migrate data from other companies acquired by Cialne.",
+            "Optimized data sets update using incremental update techniques in Pentaho Data Integration (PDI) flows, reducing the update time by 40% .",
+            "Designed pipelines to automate process using open source tools."
+        ],
+        "technologies": " Microsoft Power BI, PDI (Pentaho Data Integration), SSAS (SQL Server Analysis Services), Visual Studio Code, Oracle Developer, PuTTy, Pentaho Server, Microsoft Excel, SAP, DAX (Data Analysis Expression), Oracle Database, SQL Server, PostgreSQL."
+    },
+    {
         "role": "Business Intelligence Analyst",
         "name": "CIALNE - Companhia de Alimentos do Nordeste ",
-        "period": "May/2020 – Present",
+        "period": "May/2020 – July/2021",
         "summary": [
             "CIALNE, a company that works with poultry farming and livestock, with about 4.000 employees."
         ],
