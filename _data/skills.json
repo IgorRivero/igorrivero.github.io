@@ -2,8 +2,8 @@
     "DATA_KNOWLEDGE": [
         {
             "name": "Data Analysis",
-            "score": 80,
-            "experience": 3
+            "score": 82,
+            "experience": 4
         },
         {
             "name": "Data Modeling",
@@ -17,36 +17,36 @@
         },
         {
             "name": "Machine Learning",
-            "score": 60,
+            "score": 59,
             "experience": 1
         }
         ,
         {
             "name": "Business Inteligence",
-            "score": 80,
-            "experience": 3
+            "score": 83,
+            "experience": 5
         },
         {
             "name": "Business Analysis",
-            "score": 75,
-            "experience": 3
+            "score": 78,
+            "experience": 4
         }
     ],
     "LANGUAGES": [
         {
             "name": "Python",
-            "score": 85,
-            "experience": 3
+            "score": 90,
+            "experience": 4
         },
         {
             "name": "Spark",
-            "score": 83,
-            "experience": 2
+            "score": 89,
+            "experience": 3
         },
         {
             "name": "SQL",
-            "score": 85,
-            "experience": 4
+            "score": 89,
+            "experience": 5
         },
         {
             "name": "PostgreSQL",
@@ -74,22 +74,22 @@
         {
             "name": "Microsoft Azure Data Factory",
             "score": 88,
-            "experience": 1
+            "experience": 2
         },
         {
             "name": "Microsoft Azure Log Analytics",
-            "score": 79,
-            "experience": 1
+            "score": 81,
+            "experience": 2
         },
         {
             "name": "Azure Databricks",
-            "score": 83,
-            "experience": 2
+            "score": 88,
+            "experience": 3
         },
         {
             "name": "Microsoft Azure Storage Explorer",
             "score": 80,
-            "experience": 1
+            "experience": 2
         },
         {
             "name": "Pentaho Data Integration",
@@ -104,7 +104,7 @@
         {
             "name": "Microsoft Power BI",
             "score": 85,
-            "experience": 2
+            "experience": 3
         },
         {
             "name": "Tableu",
@@ -114,7 +114,7 @@
         {
             "name": "Microsoft Excel",
             "score": 90,
-            "experience": 4
+            "experience": 5
         },
         {
             "name": "Sklearn",
@@ -125,7 +125,7 @@
     "PERSONAL": [
         {
             "name": "Consultant",
-            "score": 88
+            "score": 91
         },
         {
             "name": "Meeting Facilitator",
@@ -133,27 +133,27 @@
         },
         {
             "name": "Teamwork",
-            "score": 90
+            "score": 98
         },
         {
             "name": "Communication",
-            "score": 85
+            "score": 90
         },
         {
             "name": "Analytical thinking",
-            "score": 90
+            "score": 96
         },
         {
             "name": "Self-learner",
-            "score": 85
+            "score": 95
         },
         {
             "name": "Fast-learner",
-            "score": 90
+            "score": 97
         },
         {
             "name": "Active listening",
-            "score": 90
+            "score": 98
         },
         {
             "name": "Organization",

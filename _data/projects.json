@@ -10,25 +10,26 @@
             "Build and Refact pipelines",
             "Monitoring pipelines executions",
             "Develop Data Quality pipelines ",
-            "As a consultant, guide the best way to proceed according to the client's business needsß "
+            "Develop Monitoring Dashboards",
+            "As a consultant, guide the best way to proceed according to the client's business needs "
         ],
         "activities": [
             "Build pipelines to automate the ingestion of big data requirements to improve the response time from machine learning models.",
             "Developed generic pipelines to make it easy to implement new pipelines in the future, just reusing pre-existent pipelines (pipelines templates).",
             "Build monitoring pipelines to notify by e-mail as soon as it finishes, either with errors or not.",
+            "Build integrations using PowerBi and Log Analitycs to track the real-time processing status of pipelines from Azure Data Factory",
             "Integration of Azure Log Analitycs with a third-party system to automate call-outs to the team members, reaching them by e-mail or any other contact( call, SMS)."
              
 
         ],
         "results": [
             
-            "Created a dashboard with real-time error reporting, making possible to correct the error of the jobs for updating the management monitoring panels, solve them before user identified a failure.",
-            "Implemented a Row-level security (RLS) with Power BI and SQL Server Analysis Services (SSAS), restricting data access for given users.",
-            "Created workflows using kettle Pentaho Data Integration (PDI) to migrate data from other companies acquired by Cialne.",
-            "Optimized data sets update using incremental update techniques in Pentaho Data Integration (PDI) flows, reducing the update time by 40% .",
-            "Designed pipelines to automate process using open source tools."
+            "Created a dashboard with real-time processing status of pipelines, allowing a easy way to monitore pipeline runs.",
+            "Developed pipelines to automate data ingestion. Greatly reducing working time spent on this activity.",
+            "Created workflows to optimize delta tables, using vacuum to optimize storage as well.",
+            "Developed pipelines to verify data integrity, such as null values on key columns and duplicated data for instance. Notifying by e-mail any warning or alert related to this integrity."
         ],
-        "technologies": " Microsoft Power BI, PDI (Pentaho Data Integration), SSAS (SQL Server Analysis Services), Visual Studio Code, Oracle Developer, PuTTy, Pentaho Server, Microsoft Excel, SAP, DAX (Data Analysis Expression), Oracle Database, SQL Server, PostgreSQL."
+        "technologies": "Azure Data Factory, Azure Log Analytics, Databricks, Microsoft Power BI, PagerDuty, Jira, PySpark, Databricks, SQL"
     },
     {
         "role": "Business Intelligence Analyst",

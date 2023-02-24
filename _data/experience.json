@@ -2,12 +2,13 @@
     "jobs": [
         {
             "role": "Consultant - Data Engineer",
-            "company": "THOUGHTWORKS",
+            "company": "ThoughtWorks",
             "period": "Jul/2021 – Present",
             "achievements": [
                 "Build pipelines to automate the ingestion of big data requirements to improve the response time from machine learning models.",
                 "Developed generic pipelines to make it easy to implement new pipelines in the future, just reusing pre-existent pipelines (pipelines templates)",
                 "Build monitoring pipelines to notify by e-mail as soon as it finishes, either with errors or not.",
+                "Build integrations using PowerBi and Log Analitycs to the real-time processing status of pipelines from Azure Data Factory",
                 "Integration of Azure Log Analitycs with a third-party system to automate call-outs to the team members, reaching them by e-mail or any other contact( call, SMS)"
              
             ]
@@ -17,7 +18,8 @@
             "company": "CIALNE - Companhia de Alimentos do Nordeste ",
             "period": "May/2020 – Jul/2021",
             "achievements": [
-                "Created a dashboard with real-time error reporting, making possible to correct jobs failures that update the management monitoring panels, solve them before user identified a failure.",                "Implemented a Row-level security (RLS), restricting data access for given users.",
+                "Created a dashboard with real-time error reporting, making possible to correct jobs failures that update the management monitoring panels, solve them before user identified a failure.",
+                "Implemented a Row-level security (RLS), restricting data access for given users.",
                 "Created workflows to migrate data from other companies acquired by Cialne.",
                 "Optimized data sets update using incremental update techniques ,reducing the update time by 40% .",
                 "Designed pipelines to automate process using open source tools.",
