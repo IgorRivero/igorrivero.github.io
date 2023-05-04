@@ -6,6 +6,9 @@
         "summary": [
             "Thoughtworks is a global technology consultancy that integrates strategy, design and engineering to drive digital innovation."
         ],
+        "situation": [
+            "Working with a worldwide retail company that is represented in more than 1400 stores in over 40 countries, and online."
+        ],
         "task": [
             "Build and Refact pipelines",
             "Monitoring pipelines executions",
